@@ -15,6 +15,10 @@ knit: pagedown::chrome_print
 
 # Aside
 
+<div class = "image-link">
+![](bitly.png)
+</div>
+
 ## Contact Info {#contact}
 -   <i class="fa fa-envelope"></i> [stesiam@proton.me](mailto:stesiam@proton.me){.email}
 -   <i class="fa fa-skype" aria-hidden="true"></i> [\@stesiam](https://github.com/stesiam)

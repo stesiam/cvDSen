@@ -60,3 +60,10 @@ body {
 .aside .level2 {
   margin-top: 0.3in;
 }
+
+.image-link img{
+  width: 50%;
+  display: flex;
+  margin: auto;
+  margin-top: -30px;
+}
