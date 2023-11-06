@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  /* Set my own colors */
+  --background-color: #f2f2f1;
+  --primary-color: #516db0;
+  --text-color: #404040;
+  --links-colors: #2c2857;
+
+  --sidebar-width: 12rem; /* side bar width */
+  --sidebar-background-color: #f5faf9; !important;
+  /*--decorator-border: 2px solid #ffffff; /* change color and thickness of timeline */
+
+}
+
+/* Give headers playfair font */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  color: #000;
+}
+
+
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  color: var(--text-color);
+}
+
+* {
+  --pagedjs-margin-top: 0.4in;
+  --pagedjs-margin-right: 0.5in;
+  --pagedjs-margin-left: 0.15in;
+  --pagedjs-margin-bottom: 0in;
+}
+
+[data-id="skills"] ul {
+    padding-left: 0.2in;
+}
+
+[data-id="disclaimer"] ul {
+    text-align: center;
+}
+
+[data-id="contact"] ul {
+  padding-left: 0.2in;
+}
+
+[data-id="aside"] {
+  height: max-content;
+}
+
+.aside{
+  width: 13rem;
+  padding-left: 0.35in;
+ padding-right: 0in;
+ font-size: 0.75rem;
+}
+
+.aside .level2 {
+  margin-top: 0.3in;
+}
