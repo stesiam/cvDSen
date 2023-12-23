@@ -13,6 +13,13 @@ output:
 knit: pagedown::chrome_print
 ---
 
+```{r, echo=FALSE}
+library(fontawesome)
+```
+
+
+<!-- Βάλε σε λογική σειρά τα projects - Scraping project - Ανάλυση - API - APP -->
+
 # Aside
 
 <div class = "image-link">
@@ -36,7 +43,8 @@ knit: pagedown::chrome_print
 ## Programming Skills {#skills}
 
 - • R 
-- • JavaScript (beginner)
+- • JavaScript (DOM)
+- • Python (beginner)
 
 ## Project Skills {#skills}
 
@@ -52,7 +60,8 @@ knit: pagedown::chrome_print
 ##  Languages {#skills}
 
 - • Greek (native speaker)
-- • English
+- • English (C2)
+- • Swedish (A2)
 
 ## Notes {#skills}
 
@@ -71,11 +80,24 @@ Last updated on `r Sys.setlocale("LC_TIME","en_US.UTF-8"); format(Sys.time(), '%
 
 ### Undergraduate student | R Enthusiast
 
-My name is Stelios and I live in Athens, Greece. Currently, I am an undergraduate student of [Statistics and Insurance science](https://www.unipi.gr/unipi/en/sta-home-en.html) (exp. graduate Sept, 2023). R is my go-to tool for my data-analysis tasks. I have some hands-on experience, by writing notebooks and developing some simple Shiny apps. I would like to further enhance my knowledge - skills, concerning R, in a working environment.
+My name is Stelios and I live in Athens, Greece. Currently, I am an undergraduate student of [Statistics and Insurance Science](https://www.unipi.gr/unipi/en/sta-home-en.html) (exp. graduate Sept, 2024). R is my go-to tool for my data-analysis tasks. I have some hands-on experience, by writing notebooks and developing some simple Shiny apps. I would like to further enhance my knowledge - skills, concerning R, in a working environment.
 
 ## Projects {data-icon="suitcase"}
 
-### EDA on Kaggle's Greek Community
+### Scraping Project `r fa(name = "r-project", fill = "steelblue")`
+
+[GitHub Repo](https://stesiam.github.io/gallery.html)
+
+N/A
+
+N/A
+
+An analysis based on Kaggle's recent survey (2022). My analysis focuses primarily on Greek users. Comparing them with the rest users of Kaggle, I came up with interesting facts as. 
+
+
+
+
+### EDA on Kaggle's Greek Community  `r fa(name = "r-project", fill = "steelblue")`
 
 [Gallery](https://stesiam.github.io/gallery.html)
 
@@ -86,7 +108,7 @@ N/A
 An analysis based on Kaggle's recent survey (2022). My analysis focuses primarily on Greek users. Comparing them with the rest users of Kaggle, I came up with interesting facts as. 
 
 
-### Search for Possible Clients
+### Search for Possible Clients  `r fa(name = "r-project", fill = "steelblue")`
 
 [Notebook Link](https://stesiam.github.io/notebooks/2022-11-24-Predict-Possible-Clients/2022-11-24-Predict-Possible-Clients.html)
 
@@ -97,9 +119,9 @@ N/A
 Developing a machine learning model (LightGBM, XGBoost) in order to classify clients based on their interest to create a term deposit account (Yes / No). The best performant model has a satisfactory accuracy (88.9 \%) . On this case-scenario the company will not have to call all their clients (1132) but they can focus only on the predicted ones (75). The use of the model decreases 93% the working hours.
 
 
-### Ship Travellers
+### API Project  `r fa(name = "r-project", fill = "steelblue")`
 
-[Shiny App](https://stesiam.shinyapps.io/Ship-Passengers/)
+[DockerHub](https://stesiam.shinyapps.io/Ship-Passengers/) | [GitHub Repo](https://stesiam.shinyapps.io/Ship-Passengers/)
 
 N/A
 
@@ -108,15 +130,15 @@ N/A
 Using 4 years of historical data, I have developed a model to predict tomorrow's ship passengers and cars. The app uses the Rhino framework, which is the newest approach to make Shiny Apps. For UI purposes I have used **HTML** (Shiny tags) and **SASS**. Furthermore, the app uses API in order to get the data from data.gov.gr and tools to retrieve those automatically (CI/CD). 
 
 
-### Greek Elections Shiny App
+### Ship Travellers  <img src="images/pylogo.png" alt="drawing" height="13"/>
 
-[Link](https://stesiam.shinyapps.io/GreekElectionsShiny/)
-
-N/A
+[Shiny App](https://stesiam.shinyapps.io/Ship-Passengers/)
 
 N/A
 
-A Shiny App that calculates MP seats in Greek Parliament. Concerning frontend, I have developed it with HTML and CSS. Shiny library was the tool to add backend functionality to my app. Furthermore, to make development more productive I have used Git and Docker. Unit testing of custom functions is being developed.
+N/A
+
+Using 4 years of historical data, I have developed a model to predict tomorrow's ship passengers and cars. The app uses the Rhino framework, which is the newest approach to make Shiny Apps. For UI purposes I have used **HTML** (Shiny tags) and **SASS**. Furthermore, the app uses API in order to get the data from data.gov.gr and tools to retrieve those automatically (CI/CD). 
 
 
 ## Education {data-icon="graduation-cap" data-concise="true"}
@@ -131,21 +153,3 @@ current - 2016
 
 
 During my studies, I was taught several statistics-related courses and had some exposure to statistical programs. Indicatively, Probabilities, Statistics: Estimation Theory, Non-parametric Statistics, Sampling and Statistical Programs using R are some of the most influential courses that helped me develop my knowledge regarding Statistics.
-
-## Certificates {data-icon="book" data-concise="true"}
-
-### Responsive Web Design
-
-[freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
-
-N/A
-
-ongoing
-
-### JavaScript Algorithms and Data Structures
-
-[freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
-
-N/A
-
-ongoing
