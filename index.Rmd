@@ -119,7 +119,7 @@ N/A
 Developing a machine learning model (LightGBM, XGBoost) in order to classify clients based on their interest to create a term deposit account (Yes / No). The best performant model has a satisfactory accuracy (88.9 \%) . On this case-scenario the company will not have to call all their clients (1132) but they can focus only on the predicted ones (75). The use of the model decreases 93% the working hours.
 
 
-### API Project  `r fa(name = "r-project", fill = "steelblue")`
+### API Project  <img src="images/pylogo.png" alt="drawing" height="13"/>
 
 [DockerHub](https://stesiam.shinyapps.io/Ship-Passengers/) | [GitHub Repo](https://stesiam.shinyapps.io/Ship-Passengers/)
 
@@ -130,7 +130,7 @@ N/A
 Using 4 years of historical data, I have developed a model to predict tomorrow's ship passengers and cars. The app uses the Rhino framework, which is the newest approach to make Shiny Apps. For UI purposes I have used **HTML** (Shiny tags) and **SASS**. Furthermore, the app uses API in order to get the data from data.gov.gr and tools to retrieve those automatically (CI/CD). 
 
 
-### Ship Travellers  <img src="images/pylogo.png" alt="drawing" height="13"/>
+### Ship Travellers  `r fa(name = "r-project", fill = "steelblue")` <img src="images/js-logo.png" alt="drawing" height="13"/> <img src="images/react-logo.png" alt="drawing" height="13"/>
 
 [Shiny App](https://stesiam.shinyapps.io/Ship-Passengers/)
 
