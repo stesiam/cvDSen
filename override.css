@@ -34,6 +34,11 @@ body {
   --pagedjs-margin-bottom: 0in;
 }
 
+[data-id="title"] {
+    margin-bottom: 0.15in;
+}
+
+
 [data-id="skills"] ul {
     padding-left: 0.2in;
 }
@@ -58,12 +63,22 @@ body {
 }
 
 .aside .level2 {
-  margin-top: 0.3in;
+  margin-top: 0.25in;
 }
 
-.image-link img{
+.image-link svg{
   width: 50%;
   display: flex;
   margin: auto;
   margin-top: -30px;
+  height: fit-content;
+}
+
+
+.ssss{
+  margin-left: 5px;
+}
+
+.text-qr{
+  text-align: center;
 }

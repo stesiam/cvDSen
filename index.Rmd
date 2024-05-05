@@ -18,17 +18,20 @@ library(fontawesome)
 ```
 
 
-<!-- Βάλε σε λογική σειρά τα projects - Scraping project - Ανάλυση - API - APP -->
+<!-- Put projects in a logical order - Scraping - Viz -  Analysis/Article - API - APP -->
 
 # Aside
 
 <div class = "image-link">
-![](bitly.png)
+![](qr_stesiam.svg)
+</div>
+
+<div class = "text-qr">
+Scan QR code to get redirected on an updated version of my CV
 </div>
 
 ## Contact Info {#contact}
--   <i class="fa fa-envelope"></i> [stesiam@proton.me](mailto:stesiam@proton.me){.email}
--   <i class="fa fa-skype" aria-hidden="true"></i> [\@stesiam](https://github.com/stesiam)
+-   <i class="fa fa-envelope" aria-hidden="true"></i> [stesiam@proton.me](mailto:stesiam@proton.me){.email}
 -   <i class="fab fa-mastodon" aria-hidden="true"></i> [\@stesiam](https://fosstodon.org/@stesiam)
 -   <i class="fa fa-map-marker" aria-hidden="true"></i> Athens, Greece
 
@@ -40,7 +43,7 @@ library(fontawesome)
 -   <i class="fa fa-github"></i> [\@stesiam](https://github.com/stesiam)
 -   <i class="fa fa-youtube" aria-hidden="true"></i> [\@stesiam](https://www.youtube.com/@stesiam)
 
-## Programming Skills {#skills}
+## Programming {#skills}
 
 - • R 
 - • JavaScript (DOM)
@@ -53,7 +56,8 @@ library(fontawesome)
 - • LaTeX
 - • HTML/CSS
 - • Docker
-- • Shiny
+- • Web Apps (Shiny)
+- • API (plumber / FastAPI)
 - • Data analysis
 - • Machine learning
 
@@ -61,7 +65,6 @@ library(fontawesome)
 
 - • Greek (native speaker)
 - • English (C2)
-- • Swedish (A2)
 
 ## Notes {#skills}
 
@@ -78,39 +81,48 @@ Last updated on `r Sys.setlocale("LC_TIME","en_US.UTF-8"); format(Sys.time(), '%
 
 ## stesiam {#title}
 
-### Undergraduate student | R Enthusiast
+### Undergraduate student | `r fa(name = "r-project", fill = "steelblue")`  Enthusiast
 
 My name is Stelios and I live in Athens, Greece. Currently, I am an undergraduate student of [Statistics and Insurance Science](https://www.unipi.gr/unipi/en/sta-home-en.html) (exp. graduate Sept, 2024). R is my go-to tool for my data-analysis tasks. I have some hands-on experience, by writing notebooks and developing some simple Shiny apps. I would like to further enhance my knowledge - skills, concerning R, in a working environment.
 
 ## Projects {data-icon="suitcase"}
 
-### Scraping Project `r fa(name = "r-project", fill = "steelblue")`
+### Scraping Register of Insurance Companies
 
-[GitHub Repo](https://stesiam.github.io/gallery.html)
-
-N/A
-
-N/A
-
-An analysis based on Kaggle's recent survey (2022). My analysis focuses primarily on Greek users. Comparing them with the rest users of Kaggle, I came up with interesting facts as. 
-
-
-
-
-### EDA on Kaggle's Greek Community  `r fa(name = "r-project", fill = "steelblue")`
-
-[Gallery](https://stesiam.github.io/gallery.html)
+`r fa("github")` [GitHub Repo](https://stesiam.github.io/gallery.html)
 
 N/A
 
 N/A
 
-An analysis based on Kaggle's recent survey (2022). My analysis focuses primarily on Greek users. Comparing them with the rest users of Kaggle, I came up with interesting facts as. 
+On this project I tried to scraped the register of Insurance companies which is hosted on Bank of Greece's website. The dynamic nature of the table led to use a combination of rvest and RSelenium. On every page iteration I get the table data and on every row iteration I automate a click on every insurance companies' profile in order to scrape their address wherever it is provided.
 
 
-### Search for Possible Clients  `r fa(name = "r-project", fill = "steelblue")`
+### Data Visualization
 
-[Notebook Link](https://stesiam.github.io/notebooks/2022-11-24-Predict-Possible-Clients/2022-11-24-Predict-Possible-Clients.html)
+`r fa("image")` [Gallery Overview - Personal Website](https://stesiam.github.io/gallery.html)
+
+N/A
+
+N/A
+
+For at least two years I have been practicing on data visualization using R and ggplot. Those years I have taken part to a lot of challenges such as [#TidyTuesday](https://github.com/rfordatascience/tidytuesday), and [#30DayChartChallenge]().
+
+
+### EDA on Kaggle's Greek Community
+
+`r fa("link")` [Article URL](https://www.stesiam.com/english/2023-05-06-Kaggle-Greek-Community/2023-05-06-Kaggle-Greek-Community.html)
+
+N/A
+
+N/A
+
+An analysis based on Kaggle's recent survey (2022). My analysis focuses primarily on Greek users. Comparing them with the rest users of Kaggle, I came up with interesting facts as the comparatively low representation, significantly higher age and expeirience and lower representation of women in contrast to the average participation of women in Kaggle.
+
+
+### Search for Possible Clients
+
+`r fa("link")` [Article URL](https://www.stesiam.com/english/2022-11-24-Predict-Possible-Clients/2022-11-24-Predict-Possible-Clients.html)
 
 N/A
 
@@ -119,27 +131,16 @@ N/A
 Developing a machine learning model (LightGBM, XGBoost) in order to classify clients based on their interest to create a term deposit account (Yes / No). The best performant model has a satisfactory accuracy (88.9 \%) . On this case-scenario the company will not have to call all their clients (1132) but they can focus only on the predicted ones (75). The use of the model decreases 93% the working hours.
 
 
-### API Project  <img src="images/pylogo.png" alt="drawing" height="13"/>
 
-[DockerHub](https://stesiam.shinyapps.io/Ship-Passengers/) | [GitHub Repo](https://stesiam.shinyapps.io/Ship-Passengers/)
+### ML Web App/API predicting Developers' Wages `r fa(name = "r-project", fill = "steelblue")` 
 
-N/A
-
-N/A
-
-Using 4 years of historical data, I have developed a model to predict tomorrow's ship passengers and cars. The app uses the Rhino framework, which is the newest approach to make Shiny Apps. For UI purposes I have used **HTML** (Shiny tags) and **SASS**. Furthermore, the app uses API in order to get the data from data.gov.gr and tools to retrieve those automatically (CI/CD). 
-
-
-### Ship Travellers  `r fa(name = "r-project", fill = "steelblue")` <img src="images/js-logo.png" alt="drawing" height="13"/> <img src="images/react-logo.png" alt="drawing" height="13"/>
-
-[Shiny App](https://stesiam.shinyapps.io/Ship-Passengers/)
+`r fa("link")` [Web App URL](https://stesiam.shinyapps.io/Greek-Elections-App)  | `r fa("github")`  [App Repo](https://github.com/stesiam/Greek-Elections-App) | `r fa("github")` [API Repo](https://github.com/stesiam/Dev-Wages-Api)
 
 N/A
 
 N/A
 
-Using 4 years of historical data, I have developed a model to predict tomorrow's ship passengers and cars. The app uses the Rhino framework, which is the newest approach to make Shiny Apps. For UI purposes I have used **HTML** (Shiny tags) and **SASS**. Furthermore, the app uses API in order to get the data from data.gov.gr and tools to retrieve those automatically (CI/CD). 
-
+Based on Greek Developers' Wages survey, I make the appropriate cleaning of data in order to build a regression (XGBoost) model with tidymodels. The app can predict the wage of a web developer based on some characteristics such as years of programming experience, employer's country,  etc. The accuracy of my model can be characterized mediocre due to the fact that the dataset is relatively small, as it is consisted of 800 participants. Light enhancements, concerning model's accuracy, have been observed in case of larger grids and combining models.
 
 ## Education {data-icon="graduation-cap" data-concise="true"}
 
