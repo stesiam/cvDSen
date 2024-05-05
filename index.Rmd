@@ -89,7 +89,7 @@ My name is Stelios and I live in Athens, Greece. Currently, I am an undergraduat
 
 ### Scraping Register of Insurance Companies
 
-`r fa("github")` [GitHub Repo](https://stesiam.github.io/gallery.html)
+`r fa("github")` [GitHub Repo](https://github.com/stesiam/insuranceRegister)
 
 N/A
 
