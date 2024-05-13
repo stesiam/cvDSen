@@ -134,7 +134,7 @@ Developing a machine learning model (LightGBM, XGBoost) in order to classify cli
 
 ### ML Web App/API predicting Developers' Wages `r fa(name = "r-project", fill = "steelblue")` 
 
-`r fa("link")` [Web App URL](https://stesiam.shinyapps.io/Greek-Elections-App)  | `r fa("github")`  [App Repo](https://github.com/stesiam/Greek-Elections-App) | `r fa("github")` [API Repo](https://github.com/stesiam/Dev-Wages-Api)
+`r fa("link")` [Web App URL](https://stesiam.shinyapps.io/Dev-Wages-App/)  | `r fa("github")`  [App Repo](https://github.com/stesiam/Dev-Wages-App) | `r fa("github")` [API Repo](https://github.com/stesiam/Dev-Wages-Api)
 
 N/A
 
