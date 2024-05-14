@@ -1,5 +1,7 @@
 # 🧔🏻 Oh, you have just found my CV! 📝
 
+[CV Link](https://github.com/stesiam/cvDSen/blob/main/index.pdf) or click the pdf file above.
+
 My Data Science (DS)-centric CV in English. In short, I enumerate my skills and some of my projects using R, given the fact that I have not worked in DS field yet. It is based on [nstrayer's CV](https://github.com/nstrayer/cv), 
 although I do not use any other package in order to automate any information shown on it(e.g. googlesheets4, datadrivencv). Of course I have set my own preferences and style on it. 🙂
 
