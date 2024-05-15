@@ -38,8 +38,8 @@ Scan QR code to get redirected on an updated version of my CV
 ## Portfolio {#contact}
 
 -   <i class="fa fa-globe" aria-hidden="true"></i> [stesiam.com](https://www.stesiam.com/)
--   <i class="fa fa-pie-chart" aria-hidden="true"></i> [Shiny Apps](https://www.stesiam.com/shiny.html)
--   <i class="fa fa-paint-brush" aria-hidden="true"></i> [Gallery](https://www.stesiam.com/gallery.html)
+-   <i class="fa fa-pie-chart" aria-hidden="true"></i> [Shiny Apps](https://www.stesiam.com/web-apps/)
+-   <i class="fa fa-paint-brush" aria-hidden="true"></i> [Gallery](https://www.stesiam.com/gallery/)
 -   <i class="fa fa-github"></i> [\@stesiam](https://github.com/stesiam)
 -   <i class="fa fa-youtube" aria-hidden="true"></i> [\@stesiam](https://www.youtube.com/@stesiam)
 
@@ -83,7 +83,7 @@ Last updated on `r Sys.setlocale("LC_TIME","en_US.UTF-8"); format(Sys.time(), '%
 
 ### Undergraduate student | `r fa(name = "r-project", fill = "steelblue")`  Enthusiast
 
-My name is Stelios and I live in Athens, Greece. Currently, I am an undergraduate student of [Statistics and Insurance Science](https://www.unipi.gr/unipi/en/sta-home-en.html) (exp. graduate Sept, 2024). R is my go-to tool for my data-analysis tasks. I have some hands-on experience, by writing notebooks and developing some simple Shiny apps. I would like to further enhance my knowledge - skills, concerning R, in a working environment.
+My name is Stelios and I live in Athens, Greece. Currently, I am an undergraduate student of [Statistics and Insurance Science](https://www.unipi.gr/en/department-of-statistics-and-insurance-science/) (exp. graduate Sept, 2024). R is my go-to tool for my data-analysis tasks. I have some hands-on experience, by writing notebooks and developing some simple Shiny apps. I would like to further enhance my knowledge - skills, concerning R, in a working environment.
 
 ## Projects {data-icon="suitcase"}
 
@@ -100,7 +100,7 @@ On this project I tried to scraped the register of Insurance companies which is 
 
 ### Data Visualization
 
-`r fa("image")` [Gallery Overview - Personal Website](https://stesiam.github.io/gallery.html)
+`r fa("image")` [Gallery Overview - Personal Website](https://www.stesiam.com/gallery/)
 
 N/A
 
@@ -111,7 +111,7 @@ For at least two years I have been practicing on data visualization using R and 
 
 ### EDA on Kaggle's Greek Community
 
-`r fa("link")` [Article URL](https://www.stesiam.com/english/2023-05-06-Kaggle-Greek-Community/2023-05-06-Kaggle-Greek-Community.html)
+`r fa("link")` [Article URL](https://www.stesiam.com/english-posts/2023-05-06-Kaggle-Greek-Community/)
 
 N/A
 
@@ -122,7 +122,7 @@ An analysis based on Kaggle's recent survey (2022). My analysis focuses primaril
 
 ### Search for Possible Clients
 
-`r fa("link")` [Article URL](https://www.stesiam.com/english/2022-11-24-Predict-Possible-Clients/2022-11-24-Predict-Possible-Clients.html)
+`r fa("link")` [Article URL](https://www.stesiam.com/english-posts/2022-11-24-Predict-Possible-Clients/)
 
 N/A
 
@@ -146,7 +146,7 @@ Based on Greek Developers' Wages survey, I make the appropriate cleaning of data
 
 ### BSc. in Statistics and Insurance Science
 
-[University of Piraeus](https://www.unipi.gr/unipi/en/sta-home-en.html)
+[University of Piraeus](https://www.unipi.gr/en/department-of-statistics-and-insurance-science/)
 
 Piraeus, Greece
 
