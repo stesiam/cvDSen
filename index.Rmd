@@ -60,6 +60,7 @@ Scan QR code to get redirected on an updated version of my CV
 - • API (plumber / FastAPI)
 - • Data analysis
 - • Machine learning
+- • Inkscape (Infographics)
 
 ##  Languages {#skills}
 
@@ -106,7 +107,7 @@ N/A
 
 N/A
 
-For at least two years I have been practicing on data visualization using R and ggplot. Those years I have taken part to a lot of challenges such as [#TidyTuesday](https://github.com/rfordatascience/tidytuesday), and [#30DayChartChallenge]().
+For at least two years I have been practicing on data visualization using R and ggplot. Those years I have taken part to a lot of challenges such as [#TidyTuesday](https://github.com/rfordatascience/tidytuesday), and [#30DayChartChallenge](https://github.com/30DayChartChallenge).
 
 
 ### EDA on Kaggle's Greek Community
