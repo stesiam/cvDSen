@@ -104,7 +104,7 @@ On this project I scrape the register of Insurance companies which is hosted on 
 
 ### Data Visualization
 
-`r fa("image")` [Gallery Overview - Personal Website](https://www.stesiam.com/gallery/)
+`r fa("image")` [Gallery Overview - Personal Website](https://stesiam.com/gallery/)
 
 N/A
 
@@ -115,7 +115,7 @@ For at least two years I have been practicing on data visualization using R and 
 
 ### EDA on Kaggle's Greek Community
 
-`r fa("link")` [Article URL](https://www.stesiam.com/english-posts/2023-05-06-Kaggle-Greek-Community/)
+`r fa("link")` [Article URL](https://stesiam.com/posts/2023-05-06-Kaggle-Greek-Community/)
 
 N/A
 
@@ -126,7 +126,7 @@ An analysis based on Kaggle's recent survey (2022). My analysis focuses primaril
 
 ### Search for Possible Clients
 
-`r fa("link")` [Article URL](https://www.stesiam.com/english-posts/2022-11-24-Predict-Possible-Clients/)
+`r fa("link")` [Article URL](https://stesiam.com/posts/2022-11-24-Predict-Possible-Clients/)
 
 N/A
 
