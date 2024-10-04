@@ -33,7 +33,9 @@ Scan QR code to get redirected on an updated version of my CV
 ## Contact Info {#contact}
 -   <i class="fa fa-envelope" aria-hidden="true"></i> [stesiam@proton.me](mailto:stesiam@proton.me){.email}
 -   <i class="fab fa-mastodon" aria-hidden="true"></i> [\@stesiam](https://fosstodon.org/@stesiam)
+-   <i class="fa-brands fa-bluesky" aria-hidden="true"></i> [\@stesiam](https://bsky.app/profile/stesiam.bsky.social)
 -   <i class="fa fa-map-marker" aria-hidden="true"></i> Athens, Greece
+
 
 ## Portfolio {#contact}
 
@@ -46,6 +48,7 @@ Scan QR code to get redirected on an updated version of my CV
 ## Programming {#skills}
 
 - • R 
+- • SQL / dbplyr (R)
 - • JavaScript (DOM)
 - • Python (beginner)
 
@@ -65,7 +68,7 @@ Scan QR code to get redirected on an updated version of my CV
 ##  Languages {#skills}
 
 - • Greek (native speaker)
-- • English (C2)
+- • English
 
 ## Notes {#skills}
 
