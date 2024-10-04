@@ -32,12 +32,12 @@ Scan QR code to get redirected on an updated version of my CV
 
 ## Contact Info {#contact}
 -   <i class="fa fa-envelope" aria-hidden="true"></i> [stesiam@proton.me](mailto:stesiam@proton.me){.email}
--   <i class="fab fa-mastodon" aria-hidden="true"></i> [\@stesiam](https://fosstodon.org/@stesiam)
 -   <i class="fa-brands fa-bluesky" aria-hidden="true"></i> [\@stesiam](https://bsky.app/profile/stesiam.bsky.social)
+-   <i class="fab fa-mastodon" aria-hidden="true"></i> [\@stesiam](https://fosstodon.org/@stesiam)
 -   <i class="fa fa-map-marker" aria-hidden="true"></i> Athens, Greece
 
 
-## Portfolio {#contact}
+## Portfolio {#portfolio}
 
 -   <i class="fa fa-globe" aria-hidden="true"></i> [stesiam.com](https://www.stesiam.com/)
 -   <i class="fa fa-pie-chart" aria-hidden="true"></i> [Shiny Apps](https://www.stesiam.com/web-apps/)
@@ -87,7 +87,7 @@ Last updated on `r Sys.setlocale("LC_TIME","en_US.UTF-8"); format(Sys.time(), '%
 
 ### Undergraduate student | `r fa(name = "r-project", fill = "steelblue")`  Enthusiast
 
-My name is Stelios and I live in Athens, Greece. Currently, I am an undergraduate student of [Statistics and Insurance Science](https://www.unipi.gr/en/department-of-statistics-and-insurance-science/) (exp. graduate Sept, 2024). R is my go-to tool for my data-analysis tasks. I have some hands-on experience, by writing notebooks and developing some simple Shiny apps. I would like to further enhance my knowledge - skills, concerning R, in a working environment.
+My name is Stelios and I live in Athens, Greece. Currently, I am an undergraduate student of [Statistics and Insurance Science](https://www.unipi.gr/en/department-of-statistics-and-insurance-science/) (exp. graduate Sept, 2024). R is my go-to tool for my data analysis tasks. I have some hands-on experience, by writing notebooks and developing some simple Shiny apps. I would like to further enhance my knowledge - skills, concerning R, in a working environment.
 
 ## Projects {data-icon="suitcase"}
 
@@ -99,7 +99,7 @@ N/A
 
 N/A
 
-On this project I tried to scraped the register of Insurance companies which is hosted on Bank of Greece's website. The dynamic nature of the table led to use a combination of rvest and RSelenium. On every page iteration I get the table data and on every row iteration I automate a click on every insurance companies' profile in order to scrape their address wherever it is provided.
+On this project I scrape the register of Insurance companies which is hosted on Bank of Greece's website. The dynamic nature of the table led to use a combination of rvest and RSelenium. On every page iteration I get the table data and on every row iteration I automate a click on every insurance companies' profile in order to scrape their address wherever it is provided.
 
 
 ### Data Visualization
