@@ -39,9 +39,9 @@ Scan QR code to get redirected on an updated version of my CV
 
 ## Portfolio {#portfolio}
 
--   <i class="fa fa-globe" aria-hidden="true"></i> [stesiam.com](https://www.stesiam.com/)
--   <i class="fa fa-pie-chart" aria-hidden="true"></i> [Shiny Apps](https://www.stesiam.com/web-apps/)
--   <i class="fa fa-paint-brush" aria-hidden="true"></i> [Gallery](https://www.stesiam.com/gallery/)
+-   <i class="fa fa-globe" aria-hidden="true"></i> [stesiam.com](https://stesiam.com/)
+-   <i class="fa fa-pie-chart" aria-hidden="true"></i> [Shiny Apps](https://stesiam.com/web-apps/)
+-   <i class="fa fa-paint-brush" aria-hidden="true"></i> [Gallery](https://stesiam.com/gallery/)
 -   <i class="fa fa-github"></i> [\@stesiam](https://github.com/stesiam)
 -   <i class="fa fa-youtube" aria-hidden="true"></i> [\@stesiam](https://www.youtube.com/@stesiam)
 
@@ -115,7 +115,7 @@ For at least two years I have been practicing on data visualization using R and 
 
 ### EDA on Kaggle's Greek Community
 
-`r fa("link")` [Article URL](https://stesiam.com/posts/2023-05-06-Kaggle-Greek-Community/)
+`r fa("link")` [Article URL](https://stesiam.com/posts/kaggle-greek-community/)
 
 N/A
 
@@ -126,7 +126,7 @@ An analysis based on Kaggle's recent survey (2022). My analysis focuses primaril
 
 ### Search for Possible Clients
 
-`r fa("link")` [Article URL](https://stesiam.com/posts/2022-11-24-Predict-Possible-Clients/)
+`r fa("link")` [Article URL](https://stesiam.com/posts/predict-possible-clients/)
 
 N/A
 
